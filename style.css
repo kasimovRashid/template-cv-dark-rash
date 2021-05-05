@@ -1,0 +1,67 @@
+:root {
+  --titlesFont: 'Montserrat', 'Arial', sans-serif;
+  --ginger: #FF9900;
+  --gray: #4F4F4F;
+  --background: #E5E5E5;
+  --header: #2E2E2E;
+  --white: white;
+}
+html, body{
+  height: 100%;
+}
+body {
+  font-family: var(--titlesFont);
+  font-size: 18px;
+  line-height: 27px; 
+  background: var(--background);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.wrapper {
+  min-height: 100%;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  background: var(--header);
+  
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 131px;
+}
+.download-pdf__link {
+  font-size: 21px;
+  color: var(--ginger);
+}
+.username {
+  font-size: 36px;
+  color: var(--white);
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.contacts__phone {
+  font-size: 21px;
+  color: var(--white);
+}
+.contacts__mail {
+  font-size: 18px;
+  color: var(--ginger);
+}
+
+
+.info {
+  display: flex;
+}
+
+
+
