@@ -1,0 +1,43 @@
+.header__container {
+  padding: 33px 0;
+  margin-bottom: 24px;
+}
+.download-pdf__text {
+  font-size: 18px;
+}
+.username {
+  font-size: 30px;
+}
+.info__left {
+  margin-right: 21px;
+}
+.info__right {
+  margin-top: 5px;
+}
+.avatar {
+  width: 228px;
+  height: 252px;
+}
+.info__title {
+  font-size: 30px;
+  margin-bottom: 37px;
+}
+.info__skills {
+  margin-bottom: 30px;
+}
+.tech__title {
+  font-size: 24px;
+}
+.desc__item {
+  width: 100%;
+  margin-bottom: 36px;
+}
+.desc__title {
+  font-size: 36px;
+}
+.desc__container {
+  margin-bottom: -16px;
+}
+.footer__container {
+  padding: 40px 0;
+}
