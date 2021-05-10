@@ -1,17 +1,48 @@
 body {
-  background: green;
+  line-height: 20px;
 }
-.download-pdf {
+.download-pdf--visible {
   visibility: hidden;
+  position: absolute;
+}
+
+
+.header__container {
+  flex-direction: column;
+  justify-content: center;
+  padding: 21px 0 19px;
+  margin-bottom: 14px;
+}
+.header__container .header__container * {
+  margin: 0;
+  padding: 0;
 }
 .username {
   font-size: 21px;
 }
+.username__name {
+  margin-bottom: 11px;
+}
+.contacts {
+  align-items: center;
+}
 .contacts__phone {
   font-size: 14px;
+  margin-bottom: 0px;
 }
 .contacts__mail {
   font-size: 14px;
+}
+.info__left {
+  margin-right: 19px;
+}
+.info__right {
+  
+  margin-top: 4px;
+
+}
+.info__title {
+  margin-bottom: 11px;
 }
 .avatar {
   width: 107px;
@@ -22,6 +53,7 @@ body {
 }
 .tech__title {
   font-size: 14px;
+  margin-bottom: 5px;
 }
 .desc__title {
   font-size: 21px;
@@ -29,6 +61,42 @@ body {
 .tech__sub-item {
   font-size: 12px;
 }
+.tech__sub-list {
+  margin-bottom: 21px;
+}
+.tech__sub-item:before {
+  top: 7px;
+  left: -15px;
+}
+.info__skills {
+  margin-bottom: 11px;
+}
+.desc__container {
+  margin-bottom: -4px;
+}
+.desc__item {
+  margin-bottom: 19px;
+}
+.desc__title {
+  margin-bottom: 11px;
+}
 .desc__text {
   font-size: 12px;
+}
+.footer__container {
+  flex-direction: column-reverse;
+  padding: 22px 0 35px;
+  align-items: center;
+}
+.download-pdf__text {
+  font-size: 14px;
+}
+.download-pdf__link {
+  font-size: 24px;
+}
+.icons__list {
+  margin-bottom: 11px;
+}
+.icons__link {
+  margin: 0px 5px;
 }
